@@ -1,11 +1,8 @@
-FROM hayd/debian-deno:latest
+FROM mcr.microsoft.com/vscode/devcontainers/base:ubuntu-18.04
 
-ARG USER_UID=1000
-ARG USER_GID=$USER_UID
-ARG USERNAME=deno
+# install deno
+RUN curl -fsSL https://deno.land/x/install/install.sh | sh
 
-RUN if [ "$USER_GID" != "1000" ] || [ "$USER_UID" != "1000" ]; then \
-        groupmod --gid $USER_GID $USERNAME \
-        && usermod --uid $USER_UID --gid $USER_GID $USERNAME \
-        && chown -R $USER_UID:$USER_GID /home/$USERNAME; \
-    fi
+# env
+ENV DENO_INSTALL /root/.deno
+ENV PATH=$DENO_INSTALL/bin:$PATH
