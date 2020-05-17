@@ -3,5 +3,9 @@
   "editor.tabSize": 2,
   "files.insertFinalNewline": true,
   "files.encoding": "utf8",
-  "files.eol": "\n"
+  "files.eol": "\n",
+  "deno.enable": true,
+  "[typescript]": {
+    "editor.defaultFormatter": "axetroy.vscode-deno",
+  },
 }

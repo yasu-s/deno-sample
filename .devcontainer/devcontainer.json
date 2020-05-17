@@ -2,17 +2,12 @@
   "name": "Deno Sample",
   "dockerFile": "Dockerfile",
   "appPort": [8080],
+  "remoteUser": "vscode",
   "settings": {
     "terminal.integrated.shell.linux": "/bin/bash"
   },
   "extensions": [
-    "usernamehw.errorlens",
-    "mkxml.vscode-filesize",
-    "eamodio.gitlens",
-    "christian-kohler.path-intellisense",
-    "visualstudioexptteam.vscodeintellicode",
-    "shardulm94.trailing-spaces",
-    "mosapride.zenkaku",
+    "axetroy.vscode-deno",
     "gizak.shortcuts",
   ]
 }
