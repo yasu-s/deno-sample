@@ -1,2 +1,4 @@
-# deno-sample
-Deno sample
+
+```
+deno run --allow-net main.ts
+```

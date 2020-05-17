@@ -1,0 +1,20 @@
+{
+  "name": "Deno Sample",
+  "dockerFile": "Dockerfile",
+  "appPort": [8080],
+  "remoteUser": "deno",
+  "settings": {
+    "terminal.integrated.shell.linux": "/bin/bash"
+  },
+  // "postCreateCommand": "echo hoge",
+  "extensions": [
+    "usernamehw.errorlens",
+    "mkxml.vscode-filesize",
+    "eamodio.gitlens",
+    "christian-kohler.path-intellisense",
+    "visualstudioexptteam.vscodeintellicode",
+    "shardulm94.trailing-spaces",
+    "mosapride.zenkaku",
+    "gizak.shortcuts",
+  ]
+}
