@@ -8,6 +8,13 @@
   },
   "extensions": [
     "axetroy.vscode-deno",
+    "usernamehw.errorlens",
+    "mkxml.vscode-filesize",
+    "eamodio.gitlens",
+    "christian-kohler.path-intellisense",
+    "visualstudioexptteam.vscodeintellicode",
+    "shardulm94.trailing-spaces",
+    "mosapride.zenkaku",
     "gizak.shortcuts",
   ]
 }

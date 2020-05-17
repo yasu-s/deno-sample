@@ -17,3 +17,7 @@ deno run --allow-net main.ts
 - http://localhost:8080/
 
 ![deno2](https://user-images.githubusercontent.com/2668146/82136819-884e7100-984c-11ea-8cd7-d312702d5af7.png)
+
+# 参考URL
+- https://deno.land/
+- https://github.com/microsoft/vscode-dev-containers
