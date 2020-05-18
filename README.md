@@ -1,19 +1,19 @@
-# 概要
+# Overview
 
-- [Deno](https://deno.land/) と Visual Studio Code の拡張機能「[Remote - Containers](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers)」を使用したサンプルです。
+- This is a sample that builds the development environment of [Deno](https://deno.land/) using the extension "[Remote-Containers](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers)" of [Visual Studio Code](https://code.visualstudio.com/).
 
-# 開発環境について
+# Development environment
 
-- Visual Studio Code 
-  - Remote - Containers
-- Docker Desktop
+- [Visual Studio Code](https://code.visualstudio.com/) 
+  - [Remote-Containers](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers)
+- [Docker Desktop](https://www.docker.com/products/docker-desktop)
 
-# 実行
+# Execution
 ```bash
 deno run --allow-net main.ts
 ```
 
-# 確認
+# Check
 - http://localhost:8080/
 
 ![deno2](https://user-images.githubusercontent.com/2668146/82136819-884e7100-984c-11ea-8cd7-d312702d5af7.png)
