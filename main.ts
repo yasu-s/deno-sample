@@ -1,4 +1,9 @@
-import { serve } from "https://deno.land/std@0.50.0/http/server.ts";
-for await (const req of serve({ port: 8080 })) {
+import { serve } from "./deps.ts";
+
+const port = 8080;
+const s = serve({ port: port });
+console.log(`http://localhost:${port}/`);
+
+for await (const req of s) {
   req.respond({ body: "Hello World\n" });
 }
