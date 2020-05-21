@@ -7,6 +7,11 @@
       "label": "run",
       "type": "shell",
       "command": "deno run --allow-net main.ts"
+    },
+    {
+      "label": "run:test",
+      "type": "shell",
+      "command": "deno test test.ts"
     }
   ]
 }
