@@ -4,7 +4,12 @@
   "appPort": [8080],
   "remoteUser": "vscode",
   "settings": {
-    "terminal.integrated.shell.linux": "/bin/bash"
+    "terminal.integrated.shell.linux": "/bin/bash",
+    "deno.enable": true,
+    "[typescript]": {
+      "editor.defaultFormatter": "axetroy.vscode-deno",
+      "editor.formatOnSave": true,
+    },
   },
   "extensions": [
     "axetroy.vscode-deno",
