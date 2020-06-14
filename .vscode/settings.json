@@ -5,6 +5,8 @@
   "files.encoding": "utf8",
   "files.eol": "\n",
   "deno.enable": true,
+  "deno.import_map": "./import_map.json",
+  "deno.unstable": true,
   "[typescript]": {
     "editor.defaultFormatter": "axetroy.vscode-deno",
     "editor.formatOnSave": true,
