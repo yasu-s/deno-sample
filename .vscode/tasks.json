@@ -6,7 +6,12 @@
     {
       "label": "run",
       "type": "shell",
-      "command": "deno run --allow-net main.ts"
+      "command": "deno run --allow-net --lock lock.json main.ts"
+    },
+    {
+      "label": "run:lock-write",
+      "type": "shell",
+      "command": "deno run --allow-net --lock-write --lock lock.json main.ts"
     },
     {
       "label": "run:test",
