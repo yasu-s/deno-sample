@@ -4,6 +4,11 @@
   "version": "2.0.0",
   "tasks": [
     {
+      "label": "deno:install",
+      "type": "shell",
+      "command": "curl -fsSL https://deno.land/x/install/install.sh | sh"
+    },
+    {
       "label": "run",
       "type": "shell",
       "command": "deno run --allow-net --lock lock.json main.ts"
@@ -14,9 +19,14 @@
       "command": "deno run --allow-net --lock-write --lock lock.json main.ts"
     },
     {
-      "label": "run:test",
+      "label": "test",
       "type": "shell",
       "command": "deno test test.ts"
+    },
+    {
+      "label": "lint",
+      "type": "shell",
+      "command": "deno lint --unstable test.ts"
     }
   ]
 }
