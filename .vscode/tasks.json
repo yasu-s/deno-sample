@@ -21,12 +21,17 @@
     {
       "label": "test",
       "type": "shell",
-      "command": "deno test test.ts"
+      "command": "deno test"
+    },
+    {
+      "label": "fmt",
+      "type": "shell",
+      "command": "deno fmt"
     },
     {
       "label": "lint",
       "type": "shell",
-      "command": "deno lint --unstable test.ts"
+      "command": "deno lint --unstable"
     }
   ]
 }
